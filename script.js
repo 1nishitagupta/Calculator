@@ -28,7 +28,6 @@ let inputString = '';
             inputString = '';
             inputText.value = inputString;
         }
-        
     
         function del() {
             inputString = inputString.slice(0, -1);
