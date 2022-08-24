@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #3a6186;
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.calc {
+    /* border: 2px solid #000; */
+    height: auto;
+    width: 280px;
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: repeat(5, 1fr); */
+    background-color: transparent;
+    /* padding: 1rem; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* textarea::-webkit-scrollbar {
+    width: 0.7em;
+} */
+
+/* textarea::-webkit-scrollbar-track {
+    background: #427E04;
+    border-radius: 100vw;
+}
+
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 100vw;
+    background-color: #171717;
+    border: 2px solid #427E04;
+} */
+
+textarea {
+    background-color: #1e1e1e;
+    grid-column: 1/-1;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    text-align: right;
+    font-size: 1.2rem;
+    color: white;
+    overflow-x: visible;
+    height: 60px;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    max-width: 260px;
+    margin-bottom: 1rem;
+    /* margin-top: 2rem; */
+    resize: none;
+    /* height: ; */
+}
+
+button {
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    margin: 0.2rem 0.4rem;
+    background-color: #171717;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.calc .equal {
+    width: auto;
+    grid-column: 3/5;
+    border-radius: 2rem;
+    background-color: #427E04;
+}
+
+.clear {
+    color: #EC6F77;
+}
+
+.green {
+    color: #A8D16B;
+}
