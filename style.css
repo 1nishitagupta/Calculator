@@ -79,11 +79,11 @@ textarea {
     color: white;
     overflow-x: visible;
     height: 60px;
-    /* word-wrap: break-word; */
-    /* word-break: break-all; */
+    word-wrap: break-word; */
+    /* word-break: break-all;
     max-width: 260px;
     margin-bottom: 1rem;
-    /* margin-top: 2rem; */
+  
     resize: none;
     /* height: ; */
 }
